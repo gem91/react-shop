@@ -14,7 +14,7 @@ import ProdeuctDetail from 'pages/products/ProdeuctDetail';
 import NewProdut from 'pages/products/NewProduct';
 import MyCart from 'pages/carts/MyCart';
 import ProtectedRouter from 'pages/ProtectedRouter';
-import ErrorComponent from './Components/ErrorComponent';
+import ErrorComponent from './components/ErrorComponent';
 
 const router = createBrowserRouter([
   {
