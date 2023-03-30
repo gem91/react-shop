@@ -27,14 +27,14 @@ const router = createBrowserRouter([
         element: <Home />,
         errorElement: <ErrorComponent />,
     },
-      { path: '/products', element: <AllProducts /> },
-      { path: '/products/new', element: (
+      { path: 'products', element: <AllProducts /> },
+      { path: 'products/new', element: (
         <ProtectedRouter requireAdmin={true} >
           <NewProdut />
         </ProtectedRouter>
       ) },
-      { path: '/products/:id', element: <ProdeuctDetail /> },
-      { path: '/carts', element: (
+      { path: 'products/:id', element: <ProdeuctDetail /> },
+      { path: 'carts', element: (
         <ProtectedRouter>
           <MyCart />
         </ProtectedRouter>
